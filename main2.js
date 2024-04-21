@@ -91,7 +91,8 @@ window.addEventListener("mousemove", onMove);
 window.addEventListener("touchmove", onMove);
 window.addEventListener("resize", onResize);
 requestAnimationFrame(render);
-window.onload = function() {
+// main.js
+document.body.addEventListener('click', function() {
     var audio = new Audio('music.mp3');
     audio.play();
-};
+});
