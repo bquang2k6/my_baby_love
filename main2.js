@@ -92,10 +92,3 @@ window.addEventListener("touchmove", onMove);
 window.addEventListener("resize", onResize);
 requestAnimationFrame(render);
 
-///
-document.addEventListener('DOMContentLoaded', (event) => {
-  let audioElement = document.querySelector('audio');
-  audioElement.play().catch(error => {
-    console.log("Tự động phát không thành công: ", error);
-  });
-});
