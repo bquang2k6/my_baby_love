@@ -92,3 +92,7 @@ window.addEventListener("touchmove", onMove);
 window.addEventListener("resize", onResize);
 requestAnimationFrame(render);
 
+<audio id="myautoload" autoplay>
+  <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+</audio>
+<script> document.getElementById('myautoload').play(); </script>
